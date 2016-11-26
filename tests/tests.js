@@ -9,7 +9,7 @@ var myApp = require('../app/library.js');
 
 describe("Test for proper arithmetic functionality", function() {
   it("should return 2 as average for 1, 2, 3", function() {
-    assert(myApp.computeAverage(1,2,3) == 3);
+    assert(myApp.computeAverage(1,2,3) == 2);
   })
   it("should return 5 as average for 3, 7, 5", function() {
     assert(myApp.computeAverage(3, 7, 5) == 5);
@@ -21,7 +21,7 @@ describe("Test for proper arithmetic functionality", function() {
 
 
 describe("Test for temperature conversion functionality", function() {
-  it("should return X for Celcius value Y", function() {
+  it("should return 104 for Celcius value 4", function() {
     assert(myApp.convertTempCtoF(40) == 104);
   })
   it("should return X for Celcius value Y", function() {
